@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" build="classes/" root="src/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="cs1/CurrencyReader.java" package="cs1" timestamp="28-Feb-2018 12:38:22">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="cs1/HTMLFilteredReader.java" package="cs1" timestamp="28-Feb-2018 09:48:09">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="SuperHTMLFilteredReaderTest.java" package="" timestamp="28-Feb-2018 09:50:56">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="HTMLFilteredReaderTest.java" package="" timestamp="28-Feb-2018 09:50:56">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="Lab02a.java" package="" timestamp="28-Feb-2018 09:50:56">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="MySimpleURLReaderTest.java" package="" timestamp="28-Feb-2018 09:50:56">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="cs1/MySimpleURLReader.java" package="cs1" timestamp="28-Feb-2018 10:37:58">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="Lab02e.java" package="" timestamp="28-Feb-2018 10:57:55">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="cs1/SuperHTMLFilteredReader.java" package="cs1" timestamp="28-Feb-2018 11:18:30">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+      <file name="CurrencyReaderTest.java" package="" timestamp="28-Feb-2018 12:21:01">
+        <select from="1661" to="1661"/>
+        <scroll column="611" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../classes/cs1/cs1.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

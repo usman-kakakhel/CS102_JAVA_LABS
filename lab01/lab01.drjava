@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="MainPrime.java" package="" timestamp="13-Feb-2018 19:32:54">
+        <select from="329" to="329"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="TestFindAll.java" package="" timestamp="13-Feb-2018 19:31:24">
+        <select from="329" to="329"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="TestIntBag.java" package="" timestamp="10-Feb-2018 16:45:41">
+        <select from="329" to="329"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="IntBag.java" package="" timestamp="13-Feb-2018 19:25:04">
+        <select from="329" to="329"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches>
+      <watch name="i"/>
+      <watch name="j"/>
+      <watch name="primes"/>
+      <watch name="check"/>
+    </watches>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

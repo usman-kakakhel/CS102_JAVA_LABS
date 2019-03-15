@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+/**
+ * __Lab02e___ 
+ * @author __Mian Usman Naeem Kakakhel___
+ * @version __date__
+ */ 
+public class Lab02e
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+      
+      // constants
+      
+
+      // variables
+      int op1;
+      int op2;
+      ArrayList<MySimpleURLReader> list;
+
+      // program code
+      
+      list = new ArrayList<MySimpleURLReader>();
+      op1 = 0;
+      op2 = 0;
+      
+      while (op1 != 3)
+      {
+        op1 = scan.nextInt();
+        if (op1 == 1)
+        {
+          
+        }
+        else if (op1 == 2)
+        {
+          System.out.println()
+          op2 = scan.nextInt();
+          while 
+        }
+      }
+      
+      
+   }
+
+}
