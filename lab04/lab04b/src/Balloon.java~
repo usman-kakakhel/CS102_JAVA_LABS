@@ -1,0 +1,50 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import shapes.*;
+
+//frame with the game layout
+
+public class Balloon extends Circle implements Drawable
+{
+  //properties
+  static final int INITIAL_RADIUS = 25;
+  static final int MAX_RADIUS = 100;
+  
+  //constructors
+  public Balloon(int x, int y)
+  {
+    super(INITIAL_RADIUS, x, y);
+  }
+  
+  //methods
+  
+   /**
+ * Draws the shape in which the method is implemented.
+ * @param g is the graphics object from which any stuff is to be drawn.
+ */
+  public void draw( Graphics g)
+  {
+    int x = super.getX() - super.getRadius();
+    int y = super.getY() - super.getRadius();
+    int diameter = super.getRadius() * 2;
+    g.drawOval(x, y, diameter, diameter);
+  }
+  
+  
+  /**
+ * Increases size of balloon until max size.
+ */
+  public void grow()
+  {
+    super.setRadius(super.getRadius() + 1);
+ if (super.getRadius() >= MAX_RADIUS)
+    {
+    super.setRadius(0);
+    super.setSelected(true);
+    }
+  }
+  
+}
+

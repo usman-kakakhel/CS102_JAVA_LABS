@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="PrizeFrame.java" package="" timestamp="28-Mar-2018 11:47:51">
+        <select from="3206" to="3206"/>
+        <scroll column="1755" row="0"/>
+      </file>
+      <file name="GameView.java" package="" timestamp="27-Mar-2018 13:56:32">
+        <select from="3206" to="3206"/>
+        <scroll column="1755" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

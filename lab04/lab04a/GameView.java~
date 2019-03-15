@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+//View game here
+
+public class GameView 
+{
+  public static void main(String[] args)
+  {
+    
+  }
+}

@@ -1,0 +1,13 @@
+package shapes;
+import java.awt.*;
+
+//interface Drawable
+public interface Drawable
+{
+  /**
+ * Draws the shape in which the method is implemented.
+ * @param g is the graphics object from which any stuff is to be drawn.
+ */
+  public void draw( Graphics g);
+  
+}
