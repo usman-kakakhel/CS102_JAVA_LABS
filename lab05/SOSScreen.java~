@@ -1,0 +1,29 @@
+import cs101.sosgame.SOS;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+
+//SOS canvas
+public class SOSScreen extends JFrame
+{
+  //properties
+  private JPanel mySOSCanvas;
+  private JPanel mySOSGUIPanel;
+   
+    
+  //constructors
+ public SOSScreen(SOS theSOSGame)
+ {
+   mySOSCanvas = new SOSCanvas(theSOSGame);
+   mySOSGUIPanel = new SOSGUIPanel(theSOSGame, "usman", "talal");
+   this.add(mySOSCanvas);
+   this.add(mySOSGUIPanel);
+   setTitle("MySOSGame: v1.0");
+   pack();
+ }
+   
+   //methods
+   
+   
+}

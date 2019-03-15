@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Lab06b.java" package="" timestamp="18-Apr-2018 00:57:39">
+        <select from="1282" to="1282"/>
+        <scroll column="1063" row="0"/>
+      </file>
+      <file name="Lab06a.java" package="" timestamp="17-Apr-2018 19:40:11">
+        <select from="1282" to="1282"/>
+        <scroll column="1063" row="0"/>
+      </file>
+      <file name="Lab06d.java" package="" timestamp="17-Apr-2018 19:38:55">
+        <select from="1282" to="1282"/>
+        <scroll column="1063" row="0"/>
+      </file>
+      <file name="Lab06c.java" package="" timestamp="17-Apr-2018 19:39:27">
+        <select from="1282" to="1282"/>
+        <scroll column="1063" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints>
+      <breakpoint enabled="true" file="Lab06b.java" line="49"/>
+    </breakpoints>
+    <watches>
+      <watch name="binary"/>
+      <watch name="decimalVal"/>
+      <watch name="count"/>
+    </watches>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

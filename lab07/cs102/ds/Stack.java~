@@ -1,0 +1,33 @@
+package cs102.ds;
+  
+//List class
+public class Stack
+{
+  //properties
+  List myList;
+  
+  //constructors
+  public Stack()
+  {
+    myList = new List();
+  }
+  
+  //methods
+  public void push(String myDigit)
+  {
+    myList.addToHead(myDigit);
+  }
+  
+  
+  public String pop()
+  {
+    return myList.removeFromHead();
+  }
+  
+  public boolean isEmpty()
+  {
+    return myList.isEmpty();
+  }
+  
+  
+}

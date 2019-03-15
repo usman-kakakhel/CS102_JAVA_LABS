@@ -1,0 +1,193 @@
+package cs102.ds;
+import java.util.Iterator;
+
+//List class
+public class List
+{
+  //properties
+  Node head;
+  
+  //constructors
+  public List()
+  {
+    head = null;
+  }
+  
+  //methods
+  public void addToHead( String item)
+  {
+    Node myNode = new Node(item);
+    myNode.nextNode = head;
+    this.head = myNode;
+  }
+  
+  
+  public String  addToTail( String item)    // iterative method
+  {
+    Iterator myListIterator = iterator();
+    Node newNode = new Node(item);
+    Node myNode = null;
+    
+    while (myListIterator.hasNext())
+    {
+      myNode = (Node)myListIterator.next();
+    }
+    
+    newNode.nextNode = null;
+    if (myNode != null)
+      myNode.nextNode = newNode;
+    else
+      this.head = newNode;
+    
+    return item;
+  }
+  
+  public String  removeFromHead() 
+  {
+    if (head == null )
+    {
+      System.out.println("Empty");
+    }
+    else 
+    {
+      String a = head.data;
+      head = head.nextNode;
+      return a;
+    }
+    
+    return null;
+  }
+  
+  public boolean isEmpty()
+  {
+    if (this.head == null)
+    {
+      return true;
+    }
+    else 
+    {
+      return false;
+    }
+  }
+  
+  public String  getData( int index)        // invalid index returns null
+  {
+    Iterator myListIterator = iterator();
+    String data = "";
+    int temp = -1;
+    
+    while (myListIterator.hasNext() && (temp < index))
+    {
+      data = ((Node)myListIterator.next()).data;
+      temp++;
+    }
+    
+    if (index > temp)
+      return null;
+    else 
+      return data;
+  }
+  
+  public void print()                    // iterative method
+  {
+    Iterator myListIterator = iterator();
+    
+    while (myListIterator.hasNext())
+    {
+      System.out.println(((Node)myListIterator.next()).data);
+    }
+  }
+  
+  public void printReverse(int index)             // recursive method
+  {
+    //finding max size
+    if (index == -2)
+    {
+      Iterator iterator = iterator();
+     while (iterator.hasNext())
+      {
+        iterator.next();
+        index++;
+      }
+     index++;
+     printReverse(index);
+    }
+    else
+    {
+      if (index >= 0)
+      {
+        System.out.println(getData(index));
+        index--;
+        printReverse(index);
+      }
+    }
+  }
+  
+  public Iterator iterator()
+  {
+    return new ListIterator(this);
+  }
+  
+  
+  //inner CLass
+  private class Node
+  {
+    //properties
+    String data;
+    Node nextNode;
+    
+    //constructors
+    public Node(String data)
+    {
+      this.data = data;
+    }
+  }
+  
+  //inner class NodeIterator
+  public class ListIterator implements Iterator
+  {
+    //properties
+    List myList;
+    Node head;
+    //int index;
+    
+    //constructors
+    
+    public ListIterator(List myList)
+    {
+      this.myList = myList ;
+      this.head = myList.head;
+      // index = -1; 
+    }
+    
+    //methods
+    
+    /**
+     * Returns anything in the aBag (IntBag).
+     * @return any Object that is present in the list
+     */
+    public Object next()
+    {
+      //index++;
+      Node toReturn = this.head;
+      this.head = this.head.nextNode;
+      return toReturn;
+    }
+    
+    /**
+     * Checks if the list has any item left.
+     * @return boolean true or false depending on item left.
+     */
+    public boolean hasNext()
+    {
+      if (this.head != null) 
+      {
+        return true;
+      }
+      return false;
+    }
+    
+    
+  }
+  
+}

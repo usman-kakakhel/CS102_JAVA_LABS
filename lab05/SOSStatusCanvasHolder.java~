@@ -1,0 +1,23 @@
+import cs101.sosgame.SOS;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+
+
+public class SOSStatusCanvasHolder extends JPanel
+{
+  //properties
+  
+  //constructor
+  public SOSStatusCanvasHolder( SOSCanvas canvas, JLabel player1, JLabel player2, JRadioButton button1, JRadioButton button2) 
+  {
+    JPanel panel = new SOSStatusBar(player1, player2, button1, button2);
+    
+    this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+    
+    this.add(canvas);
+    this.add(panel);
+  }
+  
+}
